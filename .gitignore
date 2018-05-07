@@ -1,0 +1,6 @@
+.DS_Store
+*.log
+lib/**/*.js
+index.html
+node_modules
+dist
