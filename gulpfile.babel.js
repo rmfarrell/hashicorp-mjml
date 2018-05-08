@@ -11,10 +11,13 @@ import MjLayout from './components/MjLayout'
 import MjImageText from './components/MjImageText'
 import MjBasicComponent from './components/MjBasicComponent'
 import HashiHR from './components/hashi-hr'
+import HashiHashicorpLogo from './components/hashi-hashicorp-logo'
+
 registerComponent(MjBasicComponent)
 registerComponent(MjImageText)
 registerComponent(MjLayout)
 registerComponent(HashiHR)
+registerComponent(HashiHashicorpLogo)
 
 // Import and register your components here
 
@@ -23,7 +26,6 @@ const compile = () => {
   if (!input)
     throw 'must pass TARGET file. e.g., run `TARGET=src/example.mjml npm run start` '
   const end = input.replace(/^.\/src\//, '').replace(/.mjml$/, '')
-  console.log(end)
   gulp
     .src(path.normalize('components/**.js'))
     .pipe(babel())

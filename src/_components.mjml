@@ -1,17 +1,89 @@
 <mjml>
   <mj-body>
 
-    <!-- The first component, mj-basic-component renders as a column child -->
-    <mj-section>
-      <mj-text>HR</mj-text>
+    <!-- HR -->
+    <mj-section text-align="left">
+      <mj-text>
+        <h1>hashi-hr</h1>
+        <p>A simple colored bar for dividing areas</p>
+      </mj-text>
+      <mj-table>
+        <tr>
+          <th>Attribute</th>
+          <th>Example</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+        <tr>
+          <td>color</td>
+          <td>#000000</td>
+          <td>background color of bar</td>
+          <td>#1563ff (blue)</td>
+        </tr>
+        <tr>
+          <td>weight </td>
+          <td>10px</td>
+          <td>height of color bar</td>
+          <td>10px</td>
+        </tr>
+        <tr>
+          <td>margin-top</td>
+          <td>10px</td>
+          <td></td>
+          <td>10px</td>
+        </tr>
+        <tr>
+          <td>margin-bottom</td>
+          <td>10px</td>
+          <td></td>
+          <td>10px</td>
+        </tr>
+      </mj-table>
       <hashi-hr />
+      <mj-text>
+        <code>
+          &lt;hashi-hr /&gt;
+        </code>
+      </mj-text>
       <hashi-hr weight="20px" margin-top="16px" />
+      <mj-text>
+        <code>
+          &lt;hashi-hr weight="20px" margin-top="16px" / &gt;
+        </code>
+      </mj-text>
       <hashi-hr color="red" />
+      <mj-text>
+        <code>
+          &lt;hashi-hr color="red" /&gt;
+        </code>
+      </mj-text>
     </mj-section>
 
-    <mj-section>
-      <mj-text>CTA</mj-text>
-
+    <!-- Hashicorp Logo -->
+    <mj-section text-align="left">
+      <mj-text>
+        <h1>hashi-hashicorp-logo</h1>
+      </mj-text>
+      <h1>hashi-hr</h1>
+      <p>A simple colored bar for dividing areas</p>
+      <mj-table>
+        <tr>
+          <th>Attribute</th>
+          <th>Example</th>
+          <th>Default</th>
+        </tr>
+        <tr>
+          <td>width</td>
+          <td>140px</td>
+          <td>140px</td>
+        </tr>
+      </mj-table>
+      <hashi-hashicorp-logo />
+      <mj-text>
+        <code>
+          &lt;hashi-hashicorp-logo / &gt;
+        </code>
+      </mj-text>
     </mj-section>
 
     <!-- The second component, mj-image-text renders as a section -->
