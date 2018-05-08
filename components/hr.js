@@ -1,6 +1,6 @@
 import { BodyComponent } from 'mjml-core'
 
-export default class HashiHr extends BodyComponent {
+export default class Hr extends BodyComponent {
   // component is childless
   static endingTag = true
 

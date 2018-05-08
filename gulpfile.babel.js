@@ -10,16 +10,16 @@ import { registerComponent } from 'mjml-core'
 import MjLayout from './components/MjLayout'
 import MjImageText from './components/MjImageText'
 import MjBasicComponent from './components/MjBasicComponent'
-import HashiHr from './components/hashi-hr'
-import HashiHashicorpLogo from './components/hashi-hashicorp-logo'
-import HashiCta from './components/hashi-cta'
+import Hr from './components/hr'
+import HashicorpLogo from './components/hashicorp-logo'
+import Cta from './components/cta'
 
 registerComponent(MjBasicComponent)
 registerComponent(MjImageText)
 registerComponent(MjLayout)
-registerComponent(HashiHr)
-registerComponent(HashiHashicorpLogo)
-registerComponent(HashiCta)
+registerComponent(Hr)
+registerComponent(HashicorpLogo)
+registerComponent(Cta)
 
 // Import and register your components here
 

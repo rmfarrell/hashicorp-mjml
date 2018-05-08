@@ -1,7 +1,7 @@
 import { BodyComponent } from 'mjml-core'
 
 // TODO: Figure out why padding doesn't work here.
-export default class HashiHashicorpLogo extends BodyComponent {
+export default class HashicorpLogo extends BodyComponent {
   // component is childless
   static endingTag = true
 

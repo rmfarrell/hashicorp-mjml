@@ -1,7 +1,7 @@
 import { BodyComponent } from 'mjml-core'
 
 // TODO: Figure out why padding doesn't work here.
-export default class HashiCta extends BodyComponent {
+export default class Cta extends BodyComponent {
   // component is childless
   static endingTag = true
 
