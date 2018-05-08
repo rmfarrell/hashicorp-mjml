@@ -64,8 +64,8 @@
       <mj-text>
         <h1>hashi-hashicorp-logo</h1>
       </mj-text>
-      <h1>hashi-hr</h1>
-      <p>A simple colored bar for dividing areas</p>
+      <h1>hashi-logo</h1>
+      <p>A HashiCorp logo which links back to HashiCorp website.</p>
       <mj-table>
         <tr>
           <th>Attribute</th>
@@ -77,11 +77,69 @@
           <td>140px</td>
           <td>140px</td>
         </tr>
+        <tr>
+          <td>padding</td>
+          <td>25px 0 36px</td>
+          <td>25px 0</td>
+        </tr>
       </mj-table>
       <hashi-hashicorp-logo />
       <mj-text>
         <code>
           &lt;hashi-hashicorp-logo / &gt;
+        </code>
+      </mj-text>
+    </mj-section>
+
+    <!-- CTA -->
+    <mj-section text-align="left">
+      <mj-text>
+        <h1>hashi-cta</h1>
+      </mj-text>
+      <h1>hashi-cta</h1>
+      <p>A standard call to Action. Wraps mj-button</p>
+      <mj-table>
+        <tr>
+          <th>Attribute</th>
+          <th>Example</th>
+          <th>Default</th>
+        </tr>
+        <tr>
+          <td>background-color</td>
+          <td>#000000</td>
+          <td>#f45e43</td>
+        </tr>
+        <tr>
+          <td>color</td>
+          <td>white</td>
+          <td>#fff</td>
+        </tr>
+        <tr>
+          <td>href</td>
+          <td>https://www.hashicorp.com</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>target</td>
+          <td>_self</td>
+          <td>_blank</td>
+        </tr>
+        <tr>
+          <td>padding</td>
+          <td>12px 0 16px</td>
+          <td>12px 0</td>
+        </tr>
+      </mj-table>
+      <hashi-cta href="https://www.hashicorp.com">Text goes here</hashi-cta>
+      <mj-text>
+        <code>
+          &lt;hashi-cta href="https://www.hashicorp.com" &gt; Text Goes Here &lt;/hashi-cta&gt;
+        </code>
+      </mj-text>
+      <hashi-cta background-color="red" color: "black">Text goes here</hashi-cta>
+      <mj-text>
+        <code>
+          &lt;hashi-cta background-color="red" color: "black"&gt; Text Goes Here &lt;/hashi-cta&gt;
         </code>
       </mj-text>
     </mj-section>
