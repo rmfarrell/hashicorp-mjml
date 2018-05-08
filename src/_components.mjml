@@ -42,7 +42,7 @@
       <hr />
       <mj-text>
         <code>
-          &lt;hashi-hr /&gt;
+          &lt;hr /&gt;
         </code>
       </mj-text>
       <hr weight="20px" margin-top="16px" />
