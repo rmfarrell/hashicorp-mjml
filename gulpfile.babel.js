@@ -13,6 +13,7 @@ import MjBasicComponent from './components/MjBasicComponent'
 import Hr from './components/hr'
 import HashicorpLogo from './components/hashicorp-logo'
 import Cta from './components/cta'
+import ExitLink from './components/exit-link'
 
 registerComponent(MjBasicComponent)
 registerComponent(MjImageText)
@@ -20,6 +21,7 @@ registerComponent(MjLayout)
 registerComponent(Hr)
 registerComponent(HashicorpLogo)
 registerComponent(Cta)
+registerComponent(ExitLink)
 
 // Import and register your components here
 
