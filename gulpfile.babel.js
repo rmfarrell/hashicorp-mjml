@@ -14,6 +14,7 @@ import ExitLink from './components/exit-link'
 import HashibitsHeader from './components/hashibits-header'
 import SectionBody from './components/section-body'
 import SectionHeader from './components/section-header'
+import StackedTeaser from './components/stacked-teaser'
 
 registerComponent(Hr)
 registerComponent(HashicorpLogo)
@@ -22,6 +23,7 @@ registerComponent(ExitLink)
 registerComponent(HashibitsHeader)
 registerComponent(SectionBody)
 registerComponent(SectionHeader)
+registerComponent(StackedTeaser)
 
 // Import and register your components here
 

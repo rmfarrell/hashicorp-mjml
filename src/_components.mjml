@@ -5,6 +5,7 @@
         background-color: #efefef
       }
     </mj-style>
+    <mj-breakpoint width="500px" />
   </mj-head>
   <mj-body>
 
@@ -172,6 +173,21 @@
           &lt;cta background-color="red" color: "black"&gt; Text Goes Here &lt;/cta&gt;
         </code>
       </mj-text>
+    </section-body>
+
+    <!-- Stacked Teaser -->
+    <section-header>Stacked Teasers</section-header>
+    <section-body text-align="left">
+      <mj-text>
+        <p>Teaser content containing and image and summar stacked. Two sizes available: small and large</p>
+      </mj-text>
+      <stacked-teaser 
+        size="small" href="https://www.hashicorp.com" 
+        image-src="http://placekitten.com/400/400">
+        Praesent ante massa, rutrum lobortis erat a, congue pulvinar ipsum. Quisque faucibus, erat tincidunt mollis ullamcorper, dui ligula lacinia felis, sollicitudin euismod quam lectus vel dolor. Pellentesque viverra urna ligula, a luctus libero varius id. Integer in ligula eu quam fringilla euismod.
+      </stacked-teaser>
+      
+      
     </section-body>
 
     <!-- Exit Link -->
