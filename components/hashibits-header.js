@@ -32,13 +32,16 @@ export default class HashibitsHeader extends BodyComponent {
         'background-color': 'black'
       })}>
         <mj-text ${this.htmlAttributes({
-          color: '#666',
-          'line-height': '16px'
-        })}>${this.getContent()}</mj-text>
+        color: '#666',
+        'line-height': '16px',
+        align: 'center'
+      })}>
+          ${this.getContent()}
+        </mj-text>
         <mj-image  ${this.htmlAttributes({
-          src:
-            'https://marketing-image-production.s3.amazonaws.com/uploads/baf56c614e0696676372e1dda7a5a09dccbcf85dd5cc739f69b9ea12b135683185589015fdfc0157db7fd53e973b5e93e590d610372cd4fc13637c697153d813.png'
-        })}/>
+        src:
+          'https://marketing-image-production.s3.amazonaws.com/uploads/baf56c614e0696676372e1dda7a5a09dccbcf85dd5cc739f69b9ea12b135683185589015fdfc0157db7fd53e973b5e93e590d610372cd4fc13637c697153d813.png'
+      })}/>
       </mj-wrapper>
     `)
   }

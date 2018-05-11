@@ -7,23 +7,21 @@ import path from 'path'
 import { exec } from 'child_process'
 import mjml2html from 'mjml'
 import { registerComponent } from 'mjml-core'
-import MjLayout from './components/MjLayout'
-import MjImageText from './components/MjImageText'
-import MjBasicComponent from './components/MjBasicComponent'
 import Hr from './components/hr'
 import HashicorpLogo from './components/hashicorp-logo'
 import Cta from './components/cta'
 import ExitLink from './components/exit-link'
 import HashibitsHeader from './components/hashibits-header'
+import SectionBody from './components/section-body'
+import SectionHeader from './components/section-header'
 
-registerComponent(MjBasicComponent)
-registerComponent(MjImageText)
-registerComponent(MjLayout)
 registerComponent(Hr)
 registerComponent(HashicorpLogo)
 registerComponent(Cta)
 registerComponent(ExitLink)
 registerComponent(HashibitsHeader)
+registerComponent(SectionBody)
+registerComponent(SectionHeader)
 
 // Import and register your components here
 

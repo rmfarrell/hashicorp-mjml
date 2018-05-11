@@ -1,8 +1,40 @@
 <mjml>
+  <mj-head>
+    <mj-style inline="inline">
+      body {
+        background-color: #efefef
+      }
+    </mj-style>
+  </mj-head>
   <mj-body>
 
+    <!-- Section Header -->
+    <mj-wrapper text-align="left">
+      <mj-text>
+        <h1>section-header</h1>
+        <p>Header for a section-body</p>
+      </mj-text>
+    </mj-wrapper>
+    <section-header>Header</section-header>
+    <mj-spacer></mj-spacer>
+    <section-header color="black" background-color="#999">Another Header</section-header>
+
+    <!-- Section Body -->
+    <mj-wrapper text-align="left">
+      <mj-text>
+        <h1>section-body</h1>
+        <p>Hashicorp container for Email</p>
+      </mj-text>
+    </mj-wrapper>
+    <section-header>Consectetur adipiscing elit</section-header>
+    <section-body>
+      <mj-text>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non malesuada tellus. Ut tempor pharetra massa, tincidunt dignissim turpis porta eget. Mauris nec lectus tincidunt, dapibus purus semper, feugiat metus. Morbi urna mauris, volutpat sit amet mollis ac, rutrum in ex. Nunc eget feugiat orci. Nulla facilisi. Ut eu faucibus nulla.</p>
+      </mj-text>
+    </section-body>
+
     <!-- HR -->
-    <mj-section text-align="left">
+    <mj-wrapper text-align="left">
       <mj-text>
         <h1>hr</h1>
         <p>A simple colored bar for dividing areas</p>
@@ -57,10 +89,10 @@
           &lt;hr color="red" /&gt;
         </code>
       </mj-text>
-    </mj-section>
+    </mj-wrapper>
 
     <!-- Hashicorp Logo -->
-    <mj-section text-align="left">
+    <mj-wrapper text-align="left">
       <mj-text>
         <h1>hashicorp-logo</h1>
         <p>A HashiCorp logo which links back to HashiCorp website.</p>
@@ -88,12 +120,12 @@
           &lt;hashicorp-logo / &gt;
         </code>
       </mj-text>
-    </mj-section>
+    </mj-wrapper>
 
     <!-- CTA -->
-    <mj-section text-align="left">
+    <section-header>Call to Action</section-header>
+    <section-body text-align="left">
       <mj-text>
-        <h1>cta</h1>
         <p>A standard call to Action. Wraps mj-button</p>
       </mj-text>
       <mj-table>
@@ -140,28 +172,33 @@
           &lt;cta background-color="red" color: "black"&gt; Text Goes Here &lt;/cta&gt;
         </code>
       </mj-text>
-    </mj-section>
+    </section-body>
 
     <!-- Exit Link -->
-    <mj-section text-align="left">
+    <section-header>Exit Link</section-header>
+    <section-body text-align="left">
       <mj-text>
-        <h1>exit-link</h1>
-        <p>Like CTA but a bit smaller</p>
+        <p>Text CTA followed by arrow</p>
       </mj-text>
       <exit-link href="https://www.hashicorp.com">Default</exit-link>
       <exit-link href="https://www.hashicorp.com" color="red">Text goes here</exit-link>
       <exit-link href="https://www.hashicorp.com" color="red" font-size="20px">MAJOR LINK HERE</exit-link>
-    </mj-section>
+    </section-body>
 
-    <!-- Exit Link -->
-    <mj-section text-align="left">
+    <!-- HashiBits Header -->
+    <mj-wrapper text-align="left">
       <mj-text>
         <h1>hashibits-header</h1>
         <p>Header for hashibits</p>
       </mj-text>
-      <hashibits-header title="HashiBits - April">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet tellus facilisis elit laoreet, vestibulum fringilla velit vehicula. Aenean feugiat, augue quis blandit laoreet, justo dolor iaculis erat, efficitur vehicula lacus mauris at
-        est. Quisque congue, nibh a feugiat bibendum, massa ante pretium nisi, sed scelerisque dui purus porttitor enim. </hashibits-header>
-    </mj-section>
+      <hashibits-header title="HashiBits - April">
+        <h4>This is the header</h4>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet tellus facilisis elit laoreet, vestibulum fringilla velit vehicula. Aenean feugiat, augue quis blandit laoreet, justo dolor iaculis erat, efficitur vehicula lacus mauris at
+        est. Quisque congue, nibh a feugiat bibendum, massa ante pretium nisi, sed scelerisque dui purus porttitor enim. 
+        </p>
+      </hashibits-header>
+    </mj-wrapper>
 
     <!-- The second component, mj-image-text renders as a section -->
     <mj-image-text background-color="#DD685B" image-src="https://mjml.io/assets/img/mjml-logo.png" image-width="100px" font-size="24px" image-position="left">
